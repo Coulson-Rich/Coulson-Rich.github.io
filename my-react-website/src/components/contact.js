@@ -24,8 +24,8 @@ function Contact() {
   };
 
   return (
-    <section id="contact">
-      <form onSubmit={sendEmail} className="lg:w-1/3  text-center flex flex-col md:ml-auto md:py-8 mt-8 md:mt-0">
+    <section id="contact" className="flex justify-center items-center h-screen">
+      <form onSubmit={sendEmail} className="w-full  text-center flex flex-col md:py-8 md:mt-0">
         <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">Contact Me</h2>
         <p className="leading-relaxed mb-5">Feel free to contact me to collaborate!</p>
         <div className="relative mb-4">

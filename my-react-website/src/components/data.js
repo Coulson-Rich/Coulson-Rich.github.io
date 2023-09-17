@@ -1,15 +1,15 @@
 export const projects = [
     // {
-    //   title: "React Reserve",
-    //   subtitle: "MERN Stack",
+    //   title: "Family Map",
+    //   subtitle: "Java Server and Android Client",
     //   description:
-    //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+    //     "This project uses Java as a front and backend. It uses a SQL database to store and retrieve data. It also uses Google Maps API to display the data.",
     //   //image: "./project-1.gif",
     //   //link: "https://reactbootcamp.com",
     // },
     // {
-    //   title: "React Tracks",
-    //   subtitle: "React and Python",
+    //   title: "Twitter Clone",
+    //   subtitle: "Java Frontend, AWS Server, and DynamoDB Database",
     //   description:
     //     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
     //   //image: "./project-2.gif",
