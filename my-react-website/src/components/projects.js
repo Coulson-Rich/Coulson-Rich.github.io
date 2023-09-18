@@ -12,22 +12,23 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            A curated list of some of my favorite projects I've worked on.<br/>Hover for more project info.
+            A curated list of some of my favorite projects I've worked on.<br />Hover for more project info.
           </p>
         </div>
         <div className="flex flex-wrap -m-4 brightness-90">
           {projects.map((project, index) => (
-            <a 
+            <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/3 w-100 p-4">
-              <div className="flex relative" style={{ height: '700px' }}>
+              className="w-full sm:w-1/2 lg:w-1/3 p-4 relative"
+            >
+              <div className="h-full flex flex-col relative overflow-hidden group">
                 <img
                   alt="gallery"
-                  className="absolute inset-0 text-center w-full h-full object-cover object-center"
+                  className="flex-shrink-0 w-full object-cover object-center transition-transform transform group-hover:scale-105"
                   src={project.image}
                 />
-                <div className="px-8 py-10 relative z-10 w-full border-4 border-gray-800 bg-gray-900 opacity-0 hover:opacity-100">
+                <div className="flex-grow px-8 py-10 absolute inset-0 w-full h-full border-4 border-gray-800 bg-gray-900 opacity-0 group-hover:opacity-100 transition-opacity">
                   <h2 className="tracking-widest text-sm title-font font-medium text-green-400 mb-1">
                     {project.subtitle}
                   </h2>
