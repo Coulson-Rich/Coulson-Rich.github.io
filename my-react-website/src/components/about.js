@@ -8,7 +8,7 @@ export default function About() {
               <br className="hidden lg:inline-block" /> Developer.<br/> Engineer. <br/> Life-long Learner.
             </h1>
             <p className="mb-8 leading-relaxed">
-              I'm a Senior at Brigham Young University studying Computer Science. I love to learn new skills, hobbies, or almost anything else. I'm passionate about using technology to make the world accessable to all.
+              I'm a Senior at Brigham Young University studying Computer Science. I love to learn new skills, hobbies, or almost anything else. I'm passionate about using technology to make the world accessible to all.
             </p>
             <div className="flex justify-center">
               <a
